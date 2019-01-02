@@ -1,0 +1,31 @@
+<div class="container-fluid">
+  <div class="row">
+    <app-header class="col-xs-12 col-sm-12 col-xl-12 p-0"></app-header>
+  </div>
+
+  <div class="row ">
+    <app-sidebar class=" bg-secondary text-white col-xs-12 col-sm-12 col-xl-1 p-2"></app-sidebar>
+
+
+
+    <div class="col-xs-12 col-sm-12 col-xl-8 p-4 ">
+
+      <div class="container-fluid">
+        <router-outlet></router-outlet>
+      </div>
+
+    </div>
+
+    <div class="col-xs-0 col-sm-0 col-xl-3 p-0">
+
+      <div class="container-fluid p-0 float-left ">
+        <img src="/assets/images/other/side-dragon.jpg" width="100%" alt="side image">
+      </div>
+
+    </div>
+
+  </div>
+  <div class="row">
+    <app-footer class="col-xs-12 col-sm-12 col-xl-12 p-0"></app-footer>
+  </div>
+</div>

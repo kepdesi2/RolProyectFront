@@ -1,0 +1,10 @@
+.image1 {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .image2 {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+  }
